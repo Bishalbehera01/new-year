@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>Glassmorphism login Form Tutorial in html css</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reg.css" /> 
+</head>
+<style>
+    body {
+      background-image: url("back.jpg"); /* Replace with the path to your image */
+      background-size: cover; /* Adjust background size as needed */
+      background-position: flex;
+      background-repeat: no-repeat; /* Adjust background position as needed */
+    }
+  </style>
+</head>
+<body>
+  <form action="/register" method="post">
+
+<form action="" method="post">
+    <h1>Register</h1>
+    <p>Please fill the form to create a account.</p>
+    <hr />
+
+    <label for="name"><b>Name</b></label>
+    <input
+      type="text"
+      placeholder="Enter Name"
+      name="name"
+      id="name"
+      required
+    />
+    <label for="email"><b>Email</b></label>
+    <input
+      type="text"
+      placeholder="Enter Email"
+      name="email"
+      id="email"
+      required
+    />
+    
+      <label for="phnnumber"><b>Contact Number</b></label>
+      <input
+        type="tel"
+        placeholder="Enter Contact Number"
+        name="phnnumber"
+        id="phnnumber"
+        pattern="[0-9]{0,10}"
+        required
+        maxlength="10"
+      />
+   
+    
+    <label for="psw"><b>Password</b></label>
+    <input
+      type="password"
+      placeholder="Enter Password"
+      name="psw"
+      id="psw"
+      required
+    />
+
+    <label for="psw-repeat"><b>Confirm Password</b></label>
+    <input
+      type="password"
+      placeholder="Repeat Password"
+      name="psw-repeat"
+      id="psw-repeat"
+      required
+    />
+    <button type="submit" class="registerbtn">Register</button>
+    <br><br>
+    <a href="login.html" style="text-decoration: none;">................Already have an account....................</a>
+</div>
+<script src="index1.js"></script>
+<script src="server.js"></script>
+</form>
+</body>
+</html>
